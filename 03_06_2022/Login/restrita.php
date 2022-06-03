@@ -4,6 +4,6 @@
         header("Location: index.html");
     }
     
-    echo "VOCÊ ESTÁ EM UMA PÁGINA RESTRITA!";
+    echo "VOCÊ ESTÁ EM UMA PÁGINA RESTRITA!!!!";
     echo "<a href='logout.php'>SAIR</a>"; 
 ?>

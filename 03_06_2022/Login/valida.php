@@ -2,8 +2,8 @@
     $usuario = $_POST['usuario'];
     $senha = $_POST['senha'];
 
-    $user = 'ANDERSON';
-    $pass = '1234';
+    $user = 'Melissa';
+    $pass = '2209';
 
     if(($usuario == $user) && ($senha == $pass)){
         //echo "OK validado";
@@ -13,7 +13,7 @@
         header("Location: restrita.php");
     }
     else{
-        echo "Nananinanão!!!!";
+        echo "Acesso negado!!";
     }
 
 
